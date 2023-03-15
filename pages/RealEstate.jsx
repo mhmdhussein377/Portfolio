@@ -42,10 +42,18 @@ const RealEstate = () => {
                     </p>
                     <div className="mt-4">
                         <button className="uppercase px-8 py-2 mr-8">
-                            <a href="https://stellular-kataifi-be2ecb.netlify.app/" target="_blank">Demo</a>
+                            <a
+                                href="https://stellular-kataifi-be2ecb.netlify.app/"
+                                target="_blank"
+                                rel="noreferrer">
+                                Demo
+                            </a>
                         </button>
                         <button className="uppercase px-8 py-2">
-                            <a href="https://github.com/mhmdhussein377/Real-Estate-Website" target="_blank">
+                            <a
+                                href="https://github.com/mhmdhussein377/Real-Estate-Website"
+                                target="_blank"
+                                rel="noreferrer">
                                 Code
                             </a>
                         </button>

@@ -30,7 +30,7 @@ const Contact = () => {
                                 <h2 className="py-2">Mohammad Hussein</h2>
                                 <p>Front-End Developer</p>
                                 <p className="py-4">
-                                    I am availbale for freelance or full-time positions. Contact me and let's talk.
+                                    I am availbale for freelance or full-time positions. Contact me and let{"'"}s talk.
                                 </p>
                             </div>
                             <div>
@@ -43,7 +43,7 @@ const Contact = () => {
                                     </div>
                                     <div
                                         className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                                        <a href="https://github.com/mhmdhussein377" target="_blank">
+                                        <a href="https://github.com/mhmdhussein377" target="_blank" rel="noreferrer">
                                             <FaGithub/>
                                         </a>
                                     </div>

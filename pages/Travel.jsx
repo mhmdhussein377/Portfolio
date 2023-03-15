@@ -35,12 +35,18 @@ const Travel = () => {
                     </p>
                     <div className="mt-4">
                         <button className="uppercase px-8 py-2 mr-8">
-                            <a href="https://harmonious-semolina-a1630d.netlify.app/" target="_blank">
+                            <a
+                                href="https://harmonious-semolina-a1630d.netlify.app/"
+                                target="_blank"
+                                rel="noreferrer">
                                 Demo
                             </a>
                         </button>
                         <button className="uppercase px-8 py-2">
-                            <a href="https://github.com/mhmdhussein377/weekaway-project" target="_blank">
+                            <a
+                                href="https://github.com/mhmdhussein377/weekaway-project"
+                                target="_blank"
+                                rel="noreferrer">
                                 Code
                             </a>
                         </button>

@@ -34,7 +34,7 @@ const Hulu = () => {
                         The website
                         includes several features, such as a home page that displays a list of popular
                         movies, a search bar that allows users to search for specific movies, and the
-                        details for each movie that displays information such as the movie's poster,
+                        details for each movie that displays information such as the movie{"'"}s poster,
                         title, release date, and synopsis.
                     </p>
                     <div className="mt-4">

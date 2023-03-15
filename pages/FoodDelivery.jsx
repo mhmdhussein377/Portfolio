@@ -39,14 +39,20 @@ const FoodDelivery = () => {
                     </p>
                     <div className="mt-4">
                         <button className="uppercase px-8 py-2 mr-8">
-                            <a href="https://glittery-crumble-014169.netlify.app/" target="_blank">
+                            <a
+                                href="https://glittery-crumble-014169.netlify.app/"
+                                rel="noreferrer"
+                                target="_blank">
                                 Demo
                             </a>
                         </button>
                         <button className="uppercase px-8 py-2">
                             <a
                                 href="https://github.com/mhmdhussein377/Reactjs-Food-Delivery-App"
-                                target="_blank">Code</a>
+                                rel="noreferrer"
+                                target="_blank">
+                                Code
+                            </a>
                         </button>
                     </div>
                 </div>

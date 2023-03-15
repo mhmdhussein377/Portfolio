@@ -1,11 +1,11 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image"
+import React from "react"
 import PropertyImg from "./../public/assets/projects/property.jpg"
 import CryptoImg from "./../public/assets/projects/crypto.jpg"
 import NetflixImg from "./../public/assets/projects/netflix.jpg"
 import TwitchImg from "./../public/assets/projects/twitch.jpg"
 import Link from "next/link"
-import ProjectItem from './ProjectItem'
+import ProjectItem from "./ProjectItem"
 
 import FoodDeliveryImg from "./../public/assets/projects/Food-Delivery.jpeg"
 import ModernStoreImg from "./../public/assets/projects/ModernStore.jpeg"
@@ -21,7 +21,7 @@ const Projects = () => {
                 <p className="text-xl tracking-widest uppercase text-[#5651e5]">
                     Projects
                 </p>
-                <h2 className="py-4">What I've Built</h2>
+                <h2 className="py-4">What I{"'"}ve Built</h2>
                 <div className="grid md:grid-cols-2 gap-8">
                     {/* <ProjectItem
                         backgroundImage={HuluImg}

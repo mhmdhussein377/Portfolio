@@ -37,11 +37,17 @@ const PropertyFinder = () => {
                     </p>
                     <div className="mt-4">
                         <button className="uppercase px-8 py-2 mr-8">
-                            <a href="https://dapper-croquembouche-c5ab90.netlify.app/" target="_blank">Demo</a>
+                            <a
+                                href="https://dapper-croquembouche-c5ab90.netlify.app/"
+                                rel="noreferrer"
+                                target="_blank">
+                                Demo
+                            </a>
                         </button>
                         <button className="uppercase px-8 py-2">
                             <a
                                 href="https://github.com/mhmdhussein377/Real-Estate-Website-V2"
+                                rel="noreferrer"
                                 target="_blank">
                                 Code
                             </a>

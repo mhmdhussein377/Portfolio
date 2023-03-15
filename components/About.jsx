@@ -11,7 +11,7 @@ const About = () => {
                     </p>
                     <h2 className="py-4">Who I Am</h2>
                     <p className="py-2 text-gray-600">
-                        I'm a motivated and dedicated self-taught front-end developer with a passion for
+                        I{"'"}m a motivated and dedicated self-taught front-end developer with a passion for
                         creating responsive websites that provide a seamless user experience on all
                         devices. My focuy on developing my skills and staying up-to-date with the latest
                         technologies in the field has enabled me to build dynamic and visually appealing

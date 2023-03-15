@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from "next/link"
-import aboutImg from "./../public/assets/about.jpg"
+import img from "./../public/assets/about.jpg"
+import Image from 'next/image';
 
 const About = () => {
     return (
@@ -32,8 +33,8 @@ const About = () => {
                 </div>
                 <div
                     className="w-full h-full shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-                    <img
-                        src={aboutImg}
+                    <Image
+                        src={img}
                         alt="/"
                         className="w-full h-full object-cover rounded-xl"/>
                 </div>

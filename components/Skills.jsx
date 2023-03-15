@@ -1,5 +1,11 @@
 import React from 'react'
 import Image from "next/image"
+import html from "./../public/assets/skills/html.png"
+import css from "./../public/assets/skills/css.png"
+import javascript from "./../public/assets/skills/javascript.png"
+import react from "./../public/assets/skills/react.png"
+import tailwind from "./../public/assets/skills/tailwind.png"
+import nextjs from "./../public/assets/skills/nextjs.png"
 
 const Skills = () => {
     return (
@@ -14,7 +20,7 @@ const Skills = () => {
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
                             <Image
-                                src="/assets/skills/html.png"
+                                src={html}
                                 width="65"
                                 height="65"
                                 alt="/"
@@ -28,7 +34,7 @@ const Skills = () => {
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
                             <Image
-                                src="/assets/skills/css.png"
+                                src={css}
                                 width="65"
                                 height="65"
                                 alt="/"
@@ -42,7 +48,7 @@ const Skills = () => {
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
                             <Image
-                                src="/assets/skills/javascript.png"
+                                src={javascript}
                                 width="65"
                                 height="65"
                                 alt="/"
@@ -56,7 +62,7 @@ const Skills = () => {
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
                             <Image
-                                src="/assets/skills/react.png"
+                                src={react}
                                 width="65"
                                 height="65"
                                 alt="/"
@@ -70,7 +76,7 @@ const Skills = () => {
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
                             <Image
-                                src="/assets/skills/tailwind.png"
+                                src={tailwind}
                                 width="65"
                                 height="65"
                                 alt="/"
@@ -98,7 +104,7 @@ const Skills = () => {
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
                             <Image
-                                src="/assets/skills/nextjs.png"
+                                src={nextjs}
                                 width="65"
                                 height="65"
                                 alt="/"

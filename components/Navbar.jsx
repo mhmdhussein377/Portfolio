@@ -6,6 +6,7 @@ import {FaLinkedinIn, FaGithub} from "react-icons/fa"
 import {AiOutlineMail} from "react-icons/ai"
 import {BsFillPersonLinesFill} from "react-icons/bs";
 import {useRouter} from "next/router"
+import Logo from "./../public/assets/29197369-removebg-preview.png";
 
 const Navbar = () => {
 
@@ -59,7 +60,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
                 <Link href="/">
                     <Image
-                        src="/assets/29197369-removebg-preview.png"
+                        src={Logo}
                         alt="logo"
                         width="100"
                         height="50"/>

@@ -19,12 +19,7 @@ const Skills = () => {
                     <div
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
-                            <Image
-                                src={html}
-                                width="65"
-                                height="65"
-                                alt="/"
-                                className="m-auto md:m-0"/>
+                            <Image src={html} width="65" height="65" alt="/" className="m-auto md:m-0"/>
                         </div>
                         <div className="text-center flex-1">
                             <h3 className="md:text-end">HTML</h3>
@@ -33,12 +28,7 @@ const Skills = () => {
                     <div
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
-                            <Image
-                                src={css}
-                                width="65"
-                                height="65"
-                                alt="/"
-                                className="m-auto md:m-0"/>
+                            <Image src={css} width="65" height="65" alt="/" className="m-auto md:m-0"/>
                         </div>
                         <div className="text-center flex-1">
                             <h3 className="md:text-end">CSS</h3>
@@ -61,12 +51,7 @@ const Skills = () => {
                     <div
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
-                            <Image
-                                src={react}
-                                width="65"
-                                height="65"
-                                alt="/"
-                                className="m-auto md:m-0"/>
+                            <Image src={react} width="65" height="65" alt="/" className="m-auto md:m-0"/>
                         </div>
                         <div className="text-center flex-1">
                             <h3 className="md:text-end">React</h3>
@@ -75,12 +60,16 @@ const Skills = () => {
                     <div
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
-                            <Image
-                                src={tailwind}
-                                width="65"
-                                height="65"
-                                alt="/"
-                                className="m-auto md:m-0"/>
+                            <Image src={nextjs} width="65" height="65" alt="/" className="m-auto md:m-0"/>
+                        </div>
+                        <div className="text-center flex-1">
+                            <h3 className="md:text-end">Nextjs</h3>
+                        </div>
+                    </div>
+                    <div
+                        className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
+                        <div className="flex-1">
+                            <Image src={tailwind} width="65" height="65" alt="/" className="m-auto md:m-0"/>
                         </div>
                         <div className="text-center flex-1">
                             <h3 className="md:text-end">Tailwind</h3>
@@ -100,20 +89,7 @@ const Skills = () => {
                             <h3 className="md:text-end">Bootstrap</h3>
                         </div>
                     </div>
-                    <div
-                        className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
-                        <div className="flex-1">
-                            <Image
-                                src={nextjs}
-                                width="65"
-                                height="65"
-                                alt="/"
-                                className="m-auto md:m-0"/>
-                        </div>
-                        <div className="text-center flex-1">
-                            <h3 className="md:text-end">Nextjs</h3>
-                        </div>
-                    </div>
+
                     <div
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">

@@ -102,7 +102,7 @@ const Navbar = () => {
                 {/* Side Drawer Menu */}
                 <div
                     className={nav
-                    ? " fixed left-0 top-0 w-[90%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 eas" +
+                    ? " fixed left-0 top-0 w-[90%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-8 eas" +
                         "e-in duration-500"
                     : "fixed left-[-150%] top-0 p-10 ease-in duration-500"}>
                     <div>
@@ -126,7 +126,7 @@ const Navbar = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="py-4 flex flex-col">
+                    <div className=" flex flex-col">
                         <ul className="uppercase">
                             <Link href="/">
                                 <li onClick={() => setNav(false)} className="py-4 text-sm">
@@ -159,7 +159,7 @@ const Navbar = () => {
                                 </li>
                             </Link>
                         </ul>
-                        <div className="pt-20">
+                        <div className="pb-4 pt-2">
                             <p className="uppercase tracking-widest text-[#5651e5]">
                                 Let&#39;s Connect
                             </p>

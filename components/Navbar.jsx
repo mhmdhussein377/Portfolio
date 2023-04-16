@@ -103,9 +103,9 @@ const Navbar = () => {
                     : "fixed left-[-150%] top-0 p-10 ease-in duration-500"}>
                     <div>
                         <div className="flex w-full items-center justify-between">
-                            <Link href="/">
+                            <Link href="/" onClick={handleNav}>
                                 <Image
-                                    src="/assets/29197369-removebg-preview.png"
+                                    src={Logo}
                                     width="87"
                                     height="35"
                                     alt="/"/>

@@ -13,6 +13,8 @@ import RealEstate1 from "./../public/assets/projects/Real-Estate-1.jpeg"
 import RealEstate2 from "./../public/assets/projects/Real-Estate-2.jpeg";
 import HuluImg from "./../public/assets/projects/Hulu-Clone.jpeg"
 import WeekAway from "./../public/assets/projects/Web capture_14-2-2023_21400_harmonious-semolina-a1630d.netlify.app.jpeg";
+import Twitch from "./../public/assets/projects/Twitch.jpeg"
+import twitch from "./../public/assets/projects/twitch.jpg"
 
 const Projects = () => {
     return (
@@ -44,10 +46,10 @@ const Projects = () => {
                         Tech="React JS"
                         projectUrl="/ModernStore"/> */}
                     <ProjectItem
-                        backgroundImage={WeekAway}
-                        title="Travel Website"
-                        Tech="React JS"
-                        projectUrl="/Travel"/>
+                        backgroundImage={twitch}
+                        title="Twitch Clone"
+                        Tech="Next Js"
+                        projectUrl="/Twitch"/>
                     <ProjectItem
                         backgroundImage={RealEstate1}
                         title="Property Finder UI"

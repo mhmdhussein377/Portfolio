@@ -39,7 +39,7 @@ const FoodDelivery = () => {
                     <div className="mt-4">
                         <button className="uppercase px-8 py-2 mr-8">
                             <a
-                                href="https://glittery-crumble-014169.netlify.app/"
+                                href="https://mhmdhussein-food-delivery-app.netlify.app/"
                                 rel="noreferrer"
                                 target="_blank">
                                 Demo

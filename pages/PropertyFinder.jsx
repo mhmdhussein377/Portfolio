@@ -36,7 +36,7 @@ const PropertyFinder = () => {
                     <div className="mt-4">
                         <button className="uppercase px-8 py-2 mr-8">
                             <a
-                                href="https://dapper-croquembouche-c5ab90.netlify.app/"
+                                href="https://mhmdhussein-property-finder.netlify.app"
                                 rel="noreferrer"
                                 target="_blank">
                                 Demo

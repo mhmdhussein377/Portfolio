@@ -57,15 +57,7 @@ const Skills = () => {
                             <h3 className="md:text-end">React</h3>
                         </div>
                     </div>
-                    <div
-                        className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
-                        <div className="flex-1">
-                            <Image src={nextjs} width="65" height="65" alt="/" className="m-auto md:m-0"/>
-                        </div>
-                        <div className="text-center flex-1">
-                            <h3 className="md:text-end">Nextjs</h3>
-                        </div>
-                    </div>
+
                     <div
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
@@ -89,7 +81,20 @@ const Skills = () => {
                             <h3 className="md:text-end">Bootstrap</h3>
                         </div>
                     </div>
-
+                    <div
+                        className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
+                        <div className="flex-1">
+                            <Image
+                                src="https://w7.pngwing.com/pngs/206/645/png-transparent-sass-logos-and-brands-line-filled-icon.png"
+                                width="65"
+                                height="65"
+                                alt="/Sass"
+                                className="m-auto md:m-0"/>
+                        </div>
+                        <div className="text-center flex-1">
+                            <h3 className="md:text-end">Sass</h3>
+                        </div>
+                    </div>
                     <div
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
@@ -97,7 +102,7 @@ const Skills = () => {
                                 src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
                                 width="65"
                                 height="65"
-                                alt="/"
+                                alt="/Git"
                                 className="m-auto md:m-0"/>
                         </div>
                         <div className="text-center flex-1">

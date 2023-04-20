@@ -104,11 +104,7 @@ const Navbar = () => {
                     <div>
                         <div className="flex w-full items-center justify-between">
                             <Link href="/" onClick={handleNav}>
-                                <Image
-                                    src={Logo}
-                                    width="87"
-                                    height="35"
-                                    alt="/"/>
+                                <Image src={Logo} width="87" height="35" alt="/"/>
                             </Link>
                             <div
                                 onClick={handleNav}
@@ -161,7 +157,7 @@ const Navbar = () => {
                             </p>
                             <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                                 <Link
-                                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                                    href="https://www.linkedin.com/in/mohammad-hussein-b6a2911b4/"
                                     target="_blank"
                                     rel="noreferrer">
                                     <div
@@ -169,7 +165,7 @@ const Navbar = () => {
                                         <FaLinkedinIn/>
                                     </div>
                                 </Link>
-                                <Link href="#" target="_blank" rel="noreferrer">
+                                <Link href="https://github.com/mhmdhussein377" target="_blank" rel="noreferrer">
                                     <div
                                         className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <FaGithub/>
@@ -182,7 +178,7 @@ const Navbar = () => {
                                         <AiOutlineMail/>
                                     </div>
                                 </Link>
-                                <Link href="/resume">
+                                <Link href="#">
                                     <div
                                         onClick={() => setNav(!nav)}
                                         className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">

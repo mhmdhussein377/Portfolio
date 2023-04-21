@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import ContactImg from "./../public/assets/contact.jpg"
 import Image from "next/image"
 import {FaLinkedinIn, FaGithub} from "react-icons/fa";
@@ -6,8 +6,27 @@ import {AiOutlineMail} from "react-icons/ai";
 import {BsFillPersonLinesFill} from "react-icons/bs";
 import {HiOutlineChevronDoubleUp} from "react-icons/hi"
 import Link from "next/link"
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm("service_sgsuc6v", "template_89o2vdr", form.current, "LO3yPiZNk7anJfZne")
+            .then((result) => {
+                console.log(result.text);
+                e
+                    .target
+                    .reset()
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
     return (
         <div id="contact" className="w-full">
             <div className="max-w-[1240px] mx-auto px-2 py-16">
@@ -51,7 +70,8 @@ const Contact = () => {
                                         className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                                         <FaGithub/>
                                     </a>
-                                    <Link href="/#contact"
+                                    <Link
+                                        href="/#contact"
                                         className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                                         <AiOutlineMail/>
                                     </Link>
@@ -67,26 +87,27 @@ const Contact = () => {
                     <div
                         className="col-span-3 w-full h-auto shadow-xl rounded-xl shaodw-gray-400 lg:p-4">
                         <div className="p-4">
-                            <form>
-                                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-                                    <div className="flex flex-col">
-                                        <label className="uppercase text-sm py-2">Name</label>
-                                        <input type="text" className="border-2 rounded-lg p-3 flex border-gray-300"/>
-                                    </div>
-                                    <div className="flex flex-col">
-                                        <label className="uppercase text-sm py-2">
-                                            Phone number
-                                        </label>
-                                        <input type="text" className="border-2 rounded-lg p-3 flex border-gray-300"/>
-                                    </div>
+                            <form ref={form} onSubmit={sendEmail}>
+                                <div className="flex flex-col py-2">
+                                    <label className="uppercase text-sm py-2">Name</label>
+                                    <input
+                                        name='from_name'
+                                        type="text"
+                                        className="border-2 rounded-lg p-3 flex border-gray-300"/>
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label className="uppercase text-sm py-2">Email</label>
-                                    <input type="email" className="border-2 rounded-lg p-3 flex border-gray-300"/>
+                                    <input
+                                        name='from_email'
+                                        type="email"
+                                        className="border-2 rounded-lg p-3 flex border-gray-300"/>
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label className="uppercase text-sm py-2">Message</label>
-                                    <textarea className="border-2 rounded-lg p-2 border-gray-300" rows="10"></textarea>
+                                    <textarea
+                                        name='message'
+                                        className="border-2 rounded-lg p-2 border-gray-300"
+                                        rows="10"></textarea>
                                 </div>
                                 <button className="w-full p-4 text-gray-100 mt-4">
                                     Send Message

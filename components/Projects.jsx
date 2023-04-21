@@ -40,11 +40,6 @@ const Projects = () => {
                         title="Real Estate"
                         Tech="React JS"
                         projectUrl="/RealEstate"/>
-                    {/* <ProjectItem
-                        backgroundImage={ModernStoreImg}
-                        title="Modern Store"
-                        Tech="React JS"
-                        projectUrl="/ModernStore"/> */}
                     <ProjectItem
                         backgroundImage={twitch}
                         title="Twitch Clone"
@@ -59,14 +54,6 @@ const Projects = () => {
             </div>
         </div>
     );
-}
-
-{/* <img src="/assets/projects/netflix.jpg" alt="/" className='rounded-xl' />
-                    <div className='absolute top-0 left-0 w-full h-full bg-[#5451e5] flex flex-col items-center justify-center text-white hidden rl'>
-                        <h3 className='text-3xl'>Property Finder</h3>
-                        <p className='py-4 text-xl'>React JS</p>
-                        <button className='py-2 px-7 text-black bg-gradient-to-r from-white to-white rounded-lg'>More Info</button>
-                    </div> */
 }
 
 export default Projects

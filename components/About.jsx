@@ -19,7 +19,7 @@ const About = () => {
                         positive impact in web development.
                     </p>
                     <p className="py-2 text-gray-600">
-                        Many projects were developed by me utilizing a variety of technologies and tools. My discipline, adaptability and effective time management skills help me stay focused and so well in fast-changing workplaces.
+                        Many projects were developed by me utilizing a variety of technologies and tools. My discipline, adaptability and effective time management skills help me stay focused and do well in fast-changing workplaces.
                     </p>
                     <Link href="/#projects">
                         <p className="py-2 text-gray-600 underline cursor-pointer">

@@ -18,10 +18,7 @@ const Contact = () => {
         emailjs
             .sendForm("service_sgsuc6v", "template_89o2vdr", form.current, "LO3yPiZNk7anJfZne")
             .then((result) => {
-                console.log(result.text);
-                e
-                    .target
-                    .reset()
+                e.target.reset()
             }, (error) => {
                 console.log(error.text);
             });
@@ -47,7 +44,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h2 className="py-2">Mohammad Hussein</h2>
-                                <p>Front-End Developer</p>
+                                <p>Full-Stack Web Developer</p>
                                 <p className="py-4">
                                     I am availbale for freelance or full-time positions. Contact me and let{"'"}s talk.
                                 </p>

@@ -13,17 +13,13 @@ const About = () => {
                     </p>
                     <h2 className="py-4">Who I Am</h2>
                     <p className="py-2 text-gray-600">
-                        I{"'"}m a motivated and dedicated self-taught front-end developer with a passion for
-                        creating responsive websites that provide a seamless user experience on all
-                        devices. My focuy on developing my skills and staying up-to-date with the latest
-                        technologies in the field has enabled me to build dynamic and visually appealing
-                        websites that meet the needs.
+                        I{"'"}m a software engineer with expertise in web development. I work with
+                        various programming languages, databases, and frameworks. I{"'"}ve completed
+                        relevant training and have a strong educational background. I{"'"}m ready to make a
+                        positive impact in web development.
                     </p>
                     <p className="py-2 text-gray-600">
-                        My determination and drive have helped me achieve my goals as a front-end
-                        developer, and I continue to work hard to improve and expand my skills.In
-                        addition to my technical skills, I am a quick learner, and you enjoy the process
-                        of figuring out how things work and finding solutions to problems.
+                        Many projects were developed by me utilizing a variety of technologies and tools. My discipline, adaptability and effective time management skills help me stay focused and so well in fast-changing workplaces.
                     </p>
                     <Link href="/#projects">
                         <p className="py-2 text-gray-600 underline cursor-pointer">
@@ -33,10 +29,7 @@ const About = () => {
                 </div>
                 <div
                     className="w-full h-full shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-                    <Image
-                        src={img}
-                        alt="/"
-                        className="w-full h-full object-cover rounded-xl"/>
+                    <Image src={img} alt="/" className="w-full h-full object-cover rounded-xl"/>
                 </div>
             </div>
         </div>

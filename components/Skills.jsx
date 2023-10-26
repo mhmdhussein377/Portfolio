@@ -6,6 +6,13 @@ import javascript from "./../public/assets/skills/javascript.png"
 import react from "./../public/assets/skills/react.png"
 import tailwind from "./../public/assets/skills/tailwind.png"
 import nextjs from "./../public/assets/skills/nextjs.png"
+import laravel from "./../public/assets/skills/Laravel.png"
+import mongoDB from "./../public/assets/skills/MongoDB.png";
+import node from "./../public/assets/skills/node.png";
+import express from "./../public/assets/skills/express.png";
+import mysql from "./../public/assets/skills/mysql-logo.png";
+import socket from "./../public/assets/skills/socket.png"
+import figma from "./../public/assets/skills/figma.png"
 
 const Skills = () => {
     return (
@@ -57,7 +64,51 @@ const Skills = () => {
                             <h3 className="md:text-end">React</h3>
                         </div>
                     </div>
-
+                    <div
+                        className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
+                        <div className="flex-1">
+                            <Image src={node} width="65" height="65" alt="/" className="m-auto md:m-0"/>
+                        </div>
+                        <div className="text-center flex-1">
+                            <h3 className="md:text-end">Node.js</h3>
+                        </div>
+                    </div>
+                    <div
+                        className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
+                        <div className="flex-1">
+                            <Image src={express} width="65" height="65" alt="/" className="m-auto md:m-0"/>
+                        </div>
+                        <div className="text-center flex-1">
+                            <h3 className="md:text-end">Express</h3>
+                        </div>
+                    </div>
+                    <div
+                        className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
+                        <div className="flex-1">
+                            <Image src={mongoDB} width="65" height="65" alt="/" className="m-auto md:m-0"/>
+                        </div>
+                        <div className="text-center flex-1">
+                            <h3 className="md:text-end">MongoDB</h3>
+                        </div>
+                    </div>
+                    <div
+                        className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
+                        <div className="flex-1">
+                            <Image src={mysql} width="65" height="65" alt="/" className="m-auto md:m-0"/>
+                        </div>
+                        <div className="text-center flex-1">
+                            <h3 className="md:text-end">MySQL</h3>
+                        </div>
+                    </div>
+                    <div
+                        className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
+                        <div className="flex-1">
+                            <Image src={laravel} width="65" height="65" alt="/" className="m-auto md:m-0"/>
+                        </div>
+                        <div className="text-center flex-1">
+                            <h3 className="md:text-end">Laravel</h3>
+                        </div>
+                    </div>
                     <div
                         className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
                         <div className="flex-1">
@@ -107,6 +158,24 @@ const Skills = () => {
                         </div>
                         <div className="text-center flex-1">
                             <h3 className="md:text-end">Git</h3>
+                        </div>
+                    </div>
+                    <div
+                        className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
+                        <div className="flex-1">
+                            <Image src={socket} width="65" height="65" alt="/" className="m-auto md:m-0"/>
+                        </div>
+                        <div className="text-center flex-1">
+                            <h3 className="md:text-end">Socket</h3>
+                        </div>
+                    </div>
+                    <div
+                        className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex items-center justify-between">
+                        <div className="flex-1">
+                            <Image src={figma} width="65" height="65" alt="/" className="m-auto md:m-0"/>
+                        </div>
+                        <div className="text-center flex-1">
+                            <h3 className="md:text-end">Figma</h3>
                         </div>
                     </div>
                 </div>

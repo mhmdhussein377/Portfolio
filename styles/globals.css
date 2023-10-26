@@ -10,7 +10,7 @@ html {
 
 html, body, * {
     scroll-behavior: smooth !important;
-    scroll-padding-top: 20px;
+    scroll-padding-top: 40px;
 }
 
 @layer base {
